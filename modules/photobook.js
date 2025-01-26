@@ -15,7 +15,7 @@ export const createPhotoBook = (container) => {
     a.setAttribute("data-fancybox", "gallery");
     a.setAttribute("data-caption", photo.desc);
     a.href = photo.src;
-    img.src = photo.thumb || photo.src;
+    img.src = photo.thumb;
     img.alt = photo.name + ". " + photo.place + ". " +  photo.city + (photo.event? ". " + photo.event:"") + ". " + photo.country;
     img.loading = "lazy";
     a.appendChild(img);
