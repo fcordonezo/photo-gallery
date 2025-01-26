@@ -1,4 +1,4 @@
-const photos = [
+export const photos = [
   {
     src: "https://sjc04pap001files.storage.live.com/y4mZ_a1bf4aFYjOBssZF6VwxtcYxFV9mqg6naUH44sbL05qlyz0alb8HPvs2YGFeNk2an7_O5GNZDkmUMXaG305VcjX0jmJlV4I90bV_DoHd6Xs9dPmE-mtOqKn99o8Hxc30zWx7L_jpJFKEXnNOtIqR0JzNsaeBgI-Xjh0kQuHpCd7NrJbHwmhHx_0mo3G9kSQ?width=3456&height=5184&cropmode=none",
     thumb: "https://sjc04pap001files.storage.live.com/y4mZ_a1bf4aFYjOBssZF6VwxtcYxFV9mqg6naUH44sbL05qlyz0alb8HPvs2YGFeNk2an7_O5GNZDkmUMXaG305VcjX0jmJlV4I90bV_DoHd6Xs9dPmE-mtOqKn99o8Hxc30zWx7L_jpJFKEXnNOtIqR0JzNsaeBgI-Xjh0kQuHpCd7NrJbHwmhHx_0mo3G9kSQ?width=660&height=440&cropmode=none",
@@ -438,27 +438,3 @@ const photos = [
     desc: ""
   },
 ];
-
-export const createPhotoBook = (container) => {
-  photos
-    .forEach((photo) => buildElements(container, photo));
-}
-
-const buildElements = (container, photo) => {
-  const card = document.createElement("div");
-  const cardImage = document.createElement("div");
-  const a = document.createElement("a");
-  const img = document.createElement("img");
-  card.classList.add("card");
-  cardImage.classList.add("card-image");
-  a.setAttribute("data-fancybox", "gallery");
-  a.setAttribute("data-caption", photo.desc);
-  a.href = photo.src;
-  img.src = photo.thumb || photo.src;
-  img.alt = photo.desc || "Camilo's Photobook";
-  img.loading = "lazy";
-  a.appendChild(img);
-  cardImage.appendChild(a);
-  card.appendChild(cardImage);
-  container.appendChild(card);
-}
