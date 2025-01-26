@@ -1,4 +1,4 @@
-import {createPhotoBook} from "./modules/photos.js";
+import {createPhotoBook} from "./modules/photobook.js";
 
 document.addEventListener("DOMContentLoaded", () => {
 
