@@ -14,16 +14,6 @@ document.addEventListener("DOMContentLoaded", () => {
     Toolbar: {
       display: {
         left: ["infobar"],
-        middle: [
-          "zoomIn",
-          "zoomOut",
-          "toggle1to1",
-          "rotateCCW",
-          "rotateCW",
-          "flipX",
-          "flipY",
-          "fullScreen",
-        ],
         right: ["slideshow", "thumbs", "download", "fullscreen", "share", "close"],
       },
     },
