@@ -174,7 +174,7 @@ export const photos = [
   },
   {
     src: "https://sjc04pap001files.storage.live.com/y4mQ0nVo43MTe8J-v4deomAS72UFk9WVpSvRWGHMmVUzmz-smTspNxG9-U62CuVDhEgtDrB72oLxoZiF2gU-O3afITgTsNrJvYOIEqUXsr1bqEEa8Hd-wY4T5ULJVEkG3pGUcpVCCPEpaSJGZ77lg09ziO1dGbS_obd8ZAPyOye6NLUGpwb3y4VhXwY3enrcfkD?width=5184&height=3456&cropmode=none",
-    thumb: "https://sjc04pap001files.storage.live.com/y4mQ0nVo43MTe8J-v4deomAS72UFk9WVpSvRWGHMmVUzmz-smTspNxG9-U62CuVDhEgtDrB72oLxoZiF2gU-O3afITgTsNrJvYOIEqUXsr1bqEEa8Hd-wY4T5ULJVEkG3pGUcpVCCPEpaSJGZ77lg09ziO1dGbS_obd8ZAPyOye6NLUGpwb3y4VhXwY3enrcfkD?width=5184&height=3456&cropmode=none",
+    thumb: "https://sjc04pap001files.storage.live.com/y4mQ0nVo43MTe8J-v4deomAS72UFk9WVpSvRWGHMmVUzmz-smTspNxG9-U62CuVDhEgtDrB72oLxoZiF2gU-O3afITgTsNrJvYOIEqUXsr1bqEEa8Hd-wY4T5ULJVEkG3pGUcpVCCPEpaSJGZ77lg09ziO1dGbS_obd8ZAPyOye6NLUGpwb3y4VhXwY3enrcfkD?width=660&height=440&cropmode=none",
     name: "Motocicleta hecha con alambres",
     place: "Cali",
     city: "Cali",
@@ -229,7 +229,7 @@ export const photos = [
   },
   {
     src: "https://sjc04pap001files.storage.live.com/y4m3YDZqwFwNLPgA-FZ8JV_2Z27zOrHcjR4iZHSFpJdncnuv2R7DqIQ9ACavZJXpmSTSxtcGS7GHltl5ozHJl4e0viQd_0l4h07_ARFpNozqSH_YUXpHCDdDZetCVrfaRdElA5ky8EwuLAqWF4UfGtvN9GjNB9nU5u3ru6PUe4Lpg2m9Nqwjk_yFeoQMS8QNLz6?width=3456&height=5184&cropmode=none",
-    thumb: "https://sjc04pap001files.storage.live.com/y4m3YDZqwFwNLPgA-FZ8JV_2Z27zOrHcjR4iZHSFpJdncnuv2R7DqIQ9ACavZJXpmSTSxtcGS7GHltl5ozHJl4e0viQd_0l4h07_ARFpNozqSH_YUXpHCDdDZetCVrfaRdElA5ky8EwuLAqWF4UfGtvN9GjNB9nU5u3ru6PUe4Lpg2m9Nqwjk_yFeoQMS8QNLz6?width=3456&height=5184&cropmode=none",
+    thumb: "https://sjc04pap001files.storage.live.com/y4m3YDZqwFwNLPgA-FZ8JV_2Z27zOrHcjR4iZHSFpJdncnuv2R7DqIQ9ACavZJXpmSTSxtcGS7GHltl5ozHJl4e0viQd_0l4h07_ARFpNozqSH_YUXpHCDdDZetCVrfaRdElA5ky8EwuLAqWF4UfGtvN9GjNB9nU5u3ru6PUe4Lpg2m9Nqwjk_yFeoQMS8QNLz6?width=440&height=660&cropmode=none",
     name: "Flor amarilla",
     place: "Comuna 13",
     city: "Medellín",
