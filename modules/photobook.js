@@ -14,6 +14,7 @@ export const createPhotoBook = (container) => {
     cardImage.classList.add("card-image");
     a.setAttribute("data-fancybox", "gallery");
     a.setAttribute("data-caption", photo.desc);
+    a.setAttribute("data-slug", photo.name.concat(" en ", photo.place).replaceAll(" ", "-").replaceAll(/[\,\.]*/g,"").toLowerCase());
     a.href = photo.src;
     img.src = photo.thumb;
     img.alt = photo.name + ". " + photo.place + ". " +  photo.city + (photo.event? ". " + photo.event:"") + ". " + photo.country;
