@@ -1,172 +1,161 @@
-
-
 /* Base Styles */
-
 :root {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 
 .profile-container {
-    max-width: 93.5rem;
-    margin: 0 auto;
-    padding: 0 2rem;
+  max-width: 93.5rem;
+  margin: 0 auto;
+  padding: 0 2rem;
 }
 
 /* Profile Section */
 
 .profile {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 
 .profile-image {
-    float: right;
-    width: calc(33.333% - 1rem);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 3rem;
+  float: right;
+  width: calc(33.333% - 1rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 3rem;
 }
 
 .profile-image img {
-    max-width: 150px;
-    aspect-ratio: 1;
-    border-radius: 50%;
+  max-width: 150px;
+  aspect-ratio: 1;
+  border-radius: 50%;
 }
 
 .profile-user-settings,
 .profile-stats,
 .profile-bio {
-    float: left;
-    width: calc(66.666% - 2rem);
+  float: left;
+  width: calc(66.666% - 2rem);
 }
 
 .profile-user-name {
-    display: inline-block;
-    font-size: 3.2rem;
-    font-weight: 300;
-    padding-bottom: 15px;
+  display: inline-block;
+  font-size: 3.2rem;
+  font-weight: 300;
+  padding-bottom: 15px;
 }
 
 .profile-stats {
-    margin-top: 2.3rem;
+  margin-top: 2.3rem;
 }
 
 .profile-bio {
-    font-size: 1.6rem;
-    font-weight: 400;
-    line-height: 1.5;
-    margin-top: 2.3rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-top: 2.3rem;
 }
 
 .profile-real-name {
-    font-weight: 600;
-    padding-bottom: 5px;
+  font-weight: 600;
+  padding-bottom: 5px;
 }
 
 /* Media Query */
 
 @media screen and (max-width: 40rem) {
-    .profile {
-        display: flex;
-        flex-wrap: wrap;
-        padding: 4rem 0;
-    }
+  .profile {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4rem 0;
+  }
 
-    .profile::after {
-        display: none;
-    }
+  .profile::after {
+    display: none;
+  }
 
-    .profile-image,
-    .profile-bio,
-    .profile-stats {
-        float: none;
-        width: auto;
-    }
+  .profile-image,
+  .profile-bio,
+  .profile-stats {
+    float: none;
+    width: auto;
+  }
 
-    .profile-image img {
-        width: 7.7rem;
-    }
-    
-    .profile-user-name {
-        font-size: 2rem;
-    }
+  .profile-image img {
+    width: 7.7rem;
+  }
 
-    .profile-bio {
-        font-size: 1.4rem;
-        margin-top: 1.5rem;
-    }
+  .profile-user-name {
+    font-size: 2rem;
+  }
 
-    .profile-bio,
-    .profile-stats {
-        flex-basis: 100%;
-    }
+  .profile-bio {
+    font-size: 1.4rem;
+    margin-top: 1.5rem;
+  }
+
+  .profile-bio,
+  .profile-stats {
+    flex-basis: 100%;
+  }
 }
 
-/*
-
-The following code will only run if your browser supports CSS grid.
-
-Remove or comment-out the code block below to see how the browser will fall-back to flexbox & floated styling. 
-
-*/
-
 @supports (display: grid) {
+  .profile {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(3, auto);
+    grid-column-gap: 3rem;
+    align-items: center;
+  }
+
+  .profile-image {
+    grid-row: 1 / -1;
+  }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+    grid-gap: 2rem;
+  }
+
+  .profile-image,
+  .profile-user-settings,
+  .profile-stats,
+  .profile-bio,
+  .gallery-item,
+  .gallery {
+    width: auto;
+    margin: 0;
+  }
+
+  @media (max-width: 40rem) {
     .profile {
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-        grid-template-rows: repeat(3, auto);
-        grid-column-gap: 3rem;
-        align-items: center;
+      grid-template-columns: auto 1fr;
+      grid-row-gap: 1.5rem;
     }
 
     .profile-image {
-        grid-row: 1 / -1;
+      grid-row: 1 / 2;
     }
 
-    .gallery {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
-        grid-gap: 2rem;
+    .profile-user-settings {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      grid-gap: 1rem;
     }
 
-    .profile-image,
-    .profile-user-settings,
     .profile-stats,
+    .profile-bio {
+      grid-column: 1 / -1;
+    }
+
+    .profile-user-settings,
     .profile-bio,
-    .gallery-item,
-    .gallery {
-        width: auto;
-        margin: 0;
+    .profile-stats {
+      margin: 0;
     }
-
-    @media (max-width: 40rem) {
-        .profile {
-            grid-template-columns: auto 1fr;
-            grid-row-gap: 1.5rem;
-        }
-
-        .profile-image {
-            grid-row: 1 / 2;
-        }
-
-        .profile-user-settings {
-            display: grid;
-            grid-template-columns: auto 1fr;
-            grid-gap: 1rem;
-        }
-
-        .profile-stats,
-        .profile-bio {
-            grid-column: 1 / -1;
-        }
-
-        .profile-user-settings,
-        .profile-bio,
-        .profile-stats {
-            margin: 0;
-        }
-    }
+  }
 }
