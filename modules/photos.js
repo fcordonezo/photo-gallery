@@ -1,5 +1,14 @@
 export const photos = [
   {
+    src: "https://sjc04pap001files.storage.live.com/y4mAbInjBIxuVUZAEsLhh13AE2Y7Guio5D9deW5uOGGib1V4LQJYzKcLy8uDt58sC7SCTwKO0Ab1mBfDZEhPxY7i1MZbvSib5_Q_5qG-He9R38pyN29VyNTt0A2s914vanyPYGvii3K174vfjjpgXWm89WnL7oPFavV8mOSjcm9Xna6PhnF9Bb4Cxspsllx02kX?width=5184&height=3456&cropmode=none",
+    thumb: "https://sjc04pap001files.storage.live.com/y4mAbInjBIxuVUZAEsLhh13AE2Y7Guio5D9deW5uOGGib1V4LQJYzKcLy8uDt58sC7SCTwKO0Ab1mBfDZEhPxY7i1MZbvSib5_Q_5qG-He9R38pyN29VyNTt0A2s914vanyPYGvii3K174vfjjpgXWm89WnL7oPFavV8mOSjcm9Xna6PhnF9Bb4Cxspsllx02kX?width=660&height=440&cropmode=none",
+    name: "Café, libro, galletas, tablet y prensa francesa",
+    place: "Bogotá",
+    city: "Bogotá",
+    country: "CO",
+    desc: "",
+  },
+  {
     src: "https://sjc04pap001files.storage.live.com/y4mZ_a1bf4aFYjOBssZF6VwxtcYxFV9mqg6naUH44sbL05qlyz0alb8HPvs2YGFeNk2an7_O5GNZDkmUMXaG305VcjX0jmJlV4I90bV_DoHd6Xs9dPmE-mtOqKn99o8Hxc30zWx7L_jpJFKEXnNOtIqR0JzNsaeBgI-Xjh0kQuHpCd7NrJbHwmhHx_0mo3G9kSQ?width=3456&height=5184&cropmode=none",
     thumb: "https://sjc04pap001files.storage.live.com/y4mZ_a1bf4aFYjOBssZF6VwxtcYxFV9mqg6naUH44sbL05qlyz0alb8HPvs2YGFeNk2an7_O5GNZDkmUMXaG305VcjX0jmJlV4I90bV_DoHd6Xs9dPmE-mtOqKn99o8Hxc30zWx7L_jpJFKEXnNOtIqR0JzNsaeBgI-Xjh0kQuHpCd7NrJbHwmhHx_0mo3G9kSQ?width=660&height=440&cropmode=none",
     name: "Flores y vegetación",
