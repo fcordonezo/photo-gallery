@@ -1,5 +1,14 @@
 export const photos = [
   {
+    src: "https://sjc04pap001files.storage.live.com/y4mVuZfrQC6tiKkmZ0_2RzejkWcfPZ7WLYDhCspSkfCJoHRem0VlY7gNg97-CU8ZdOclrKSQMBJBMaJ_hf4ZUzt1e0SwFA_FitAve9BwdtOcnpBPjDG3ZC5koneYaRTyFyHwMe8KjHOxoOCeP8mNstGVzeztCDCdEK6eckNaegEmgZYc59eqRENTmTS86-NSdJf?width=3456&height=5184&cropmode=none",
+    thumb: "https://sjc04pap001files.storage.live.com/y4mVuZfrQC6tiKkmZ0_2RzejkWcfPZ7WLYDhCspSkfCJoHRem0VlY7gNg97-CU8ZdOclrKSQMBJBMaJ_hf4ZUzt1e0SwFA_FitAve9BwdtOcnpBPjDG3ZC5koneYaRTyFyHwMe8KjHOxoOCeP8mNstGVzeztCDCdEK6eckNaegEmgZYc59eqRENTmTS86-NSdJf?width=440&height=660&cropmode=none",
+    name: "Fumizuki, mes de las letras en japonés",
+    place: "Bogotá",
+    city: "Bogotá",
+    country: "CO",
+    desc: "",
+  },
+  {
     src: "https://sjc04pap001files.storage.live.com/y4mAbInjBIxuVUZAEsLhh13AE2Y7Guio5D9deW5uOGGib1V4LQJYzKcLy8uDt58sC7SCTwKO0Ab1mBfDZEhPxY7i1MZbvSib5_Q_5qG-He9R38pyN29VyNTt0A2s914vanyPYGvii3K174vfjjpgXWm89WnL7oPFavV8mOSjcm9Xna6PhnF9Bb4Cxspsllx02kX?width=5184&height=3456&cropmode=none",
     thumb: "https://sjc04pap001files.storage.live.com/y4mAbInjBIxuVUZAEsLhh13AE2Y7Guio5D9deW5uOGGib1V4LQJYzKcLy8uDt58sC7SCTwKO0Ab1mBfDZEhPxY7i1MZbvSib5_Q_5qG-He9R38pyN29VyNTt0A2s914vanyPYGvii3K174vfjjpgXWm89WnL7oPFavV8mOSjcm9Xna6PhnF9Bb4Cxspsllx02kX?width=660&height=440&cropmode=none",
     name: "Café, libro, galletas, tablet y prensa francesa",
