@@ -18,16 +18,23 @@
   font-size: 2.5rem;
   text-decoration: none;
   transition: all 0.15s ease;
+  border: 0.15rem solid;
+  border-color: #F2F2F2;
 }
 
 .social-icon:hover {
-  color: #fff;
+  color: #F2F2F2;
+}
+
+.tooltip {
+  border: 0.15rem solid;
+  border-color: #F2F2F2;
 }
 
 .social-icon:hover .tooltip {
   visibility: visible;
   opacity: 1;
-  transform: translate(-50%, -150%);
+  transform: translate(-50%, 150%);
 }
 
 .social-icon:active {
@@ -36,7 +43,7 @@
 
 .social-icon--linkedin {
   background: #0a66c2;
-  color: #fff;
+  color: #F2F2F2;
 }
 
 .social-icon--linkedin .tooltip {
@@ -50,7 +57,7 @@
 
 .social-icon--twitter {
   background: #2b97f1;
-  color: #fff;
+  color: #F2F2F2;
 }
 
 .social-icon--twitter .tooltip {
@@ -64,7 +71,7 @@
 
 .social-icon--facebook {
   background: #0866ff;
-  color: #fff;
+  color: #F2F2F2;
 }
 
 .social-icon--facebook .tooltip {
@@ -77,22 +84,22 @@
 }
 
 .social-icon--instagram {
-  background: #dd2a7b;
-  color: #fff;
+  background: #DD2A7B;
+  color: #F2F2F2;
 }
 
 .social-icon--instagram .tooltip {
-  background: #dd2a7b;
+  background: #DD2A7B;
   color: currentColor;
 }
 
 .social-icon--instagram .tooltip:after {
-  border-top-color: #dd2a7b;
+  border-top-color: #DD2A7B;
 }
 
 .social-icon--github {
   background: black;
-  color: #fff;
+  color: #F2F2F2;
 }
 
 .social-icon--github .tooltip {
@@ -125,18 +132,4 @@
   transform: translate(-50%, -100%);
   transition: all 0.3s ease;
   z-index: 1;
-}
-
-.tooltip:after {
-  display: block;
-  position: absolute;
-  bottom: 1px;
-  left: 50%;
-  width: 0;
-  height: 0;
-  content: "";
-  border: solid;
-  border-width: 10px 10px 0 10px;
-  border-color: transparent;
-  transform: translate(-50%, 100%);
 }
