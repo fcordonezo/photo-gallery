@@ -4,16 +4,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Poetsen+One&display=swap"
+    rel="stylesheet">
 
   <!-- SEO -->
-  <meta name="description" content="Cada foto cuenta una historia. Explora mi portfolio con paisajes, retratos y fotografía urbana, capturados con alma y creatividad. 📷✨">
-  <meta name="keywords" content="fotografía, portfolio, paisajes, retratos, fotografía urbana, arte visual, cámara fotográfica">
+  <meta name="description"
+    content="Cada foto cuenta una historia. Explora mi portfolio con paisajes, retratos y fotografía urbana, capturados con alma y creatividad. 📷✨">
+  <meta name="keywords"
+    content="fotografía, portfolio, paisajes, retratos, fotografía urbana, arte visual, cámara fotográfica">
   <meta name="author" content="Camilo Ordóñez">
   <meta name="robots" content="index, follow">
 
   <!-- Open Graph -->
   <meta property="og:title" content="Camilo's Photo Book">
-  <meta property="og:description" content="Cada foto cuenta una historia. Explora mi portfolio con paisajes, retratos y fotografía urbana, capturados con alma y creatividad. 📷✨">
+  <meta property="og:description"
+    content="Cada foto cuenta una historia. Explora mi portfolio con paisajes, retratos y fotografía urbana, capturados con alma y creatividad. 📷✨">
   <meta property="og:image" content="https://fcordonezo.github.io/photo-gallery/images/OG-image.jpg">
   <meta property="og:image:alt" content="Café, libro, galletas, tablet y prensa francesa">
   <meta property="og:url" content="https://fcordonezo.github.io/photo-gallery/">
@@ -25,62 +30,101 @@
   <!-- Twitter Cards -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Camilo's Photo Book">
-  <meta name="twitter:description" content="Cada foto cuenta una historia. Explora mi portfolio con paisajes, retratos y fotografía urbana, capturados con alma y creatividad. 📷✨">
+  <meta name="twitter:description"
+    content="Cada foto cuenta una historia. Explora mi portfolio con paisajes, retratos y fotografía urbana, capturados con alma y creatividad. 📷✨">
   <meta name="twitter:image" content="https://fcordonezo.github.io/photo-gallery/images/OG-image.jpg">
   <meta property="twitter:image:alt" content="Café, libro, galletas, tablet y prensa francesa">
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="shortcut icon" href="images/camera-icon.png">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="fancybox/fancybox.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="fancybox/fancybox.umd.js"></script>
+  <link rel="stylesheet" href="fancybox/6.0.15/fancybox.css"/>
+  <script src="fancybox/6.0.15/fancybox.umd.js"></script>
   <script src="script.js" type="module"></script>
   <title>Camilo's Photo Book</title>
 </head>
 
 <body>
   <main class="main">
+
     <header>
-      <div class="profile-container">
-        <div class="profile">
-          <div class="profile-image">
-            <img src="images/camera.jpg" alt="Cámara Canon reflejada en un espejo de automóvil">
-          </div>
-          <div class="profile-user-settings">
-            <h1 class="profile-user-name">Camilo's Photo Book</h1>
-          </div>
-          <div class="profile-bio">
-            <h3 class="profile-real-name">Ingeniero de sistemas y fotógrafo amateur</h3>
-            <p>
-              Como entusiasta disfruto explorar paisajes, momentos y detalles a través de mi cámara, capturando la
-              belleza que a menudo pasa desapercibida.
-              Para mí, la fotografía es una forma de desconectarme y conectarme a la vez, apreciando el mundo desde otra
-              perspectiva.</p>
-          </div>
-          <div class="profile-stats">
-            <div class="social-icons">
-              <a class="social-icon social-icon--github" href="https://github.com/fcordonezo" target="_blank">
-                <i class="fa fa-github"></i>
-                <div class="tooltip">Github</div>
-              </a>
-              <a class="social-icon social-icon--twitter" href="https://x.com/FabianCamilo96" target="_blank">
-                <i class="fa fa-twitter"></i>
-                <div class="tooltip">Twitter</div>
-              </a>
-              <a class="social-icon social-icon--instagram" href="https://www.instagram.com/fabiancamilo96/" target="_blank">
-                <i class="fa fa-instagram"></i>
-                <div class="tooltip">Instagram</div>
-              </a>
-              <a class="social-icon social-icon--linkedin" href="https://www.linkedin.com/in/fabiancamilo/" target="_blank">
-                <i class="fa fa-linkedin"></i>
-                <div class="tooltip">LinkedIn</div>
-              </a>
-              <a class="social-icon social-icon--facebook" href="https://web.facebook.com/fabiancamilo9607" target="_blank">
-                <i class="fa fa-facebook"></i>
-                <div class="tooltip">Facebook</div>
-              </a>
+      <div class="header">
+
+        <!--Content before waves-->
+        <div class="inner-header flex">
+          <div class="profile-container">
+            <div class="profile">
+              <div class="profile-image">
+                <img src="images/profile.jpg" alt="Cámara Canon reflejada en un espejo de automóvil">
+              </div>
+              <div class="profile-user-settings">
+                <h1 class="profile-user-name">Camilo's Photo Book</h1>
+              </div>
+              <div class="profile-bio">
+                <h3 class="profile-real-name"><i class="fa fa-camera"></i> Ingeniero de sistemas y fotógrafo amateur
+                </h3>
+                <p class="presentacion">
+                  Como entusiasta disfruto explorar paisajes, momentos y detalles a través de mi cámara, capturando la
+                  belleza que a menudo pasa desapercibida.
+                  Para mí, la fotografía es una forma de desconectarme y conectarme a la vez, apreciando el mundo desde
+                  otra
+                  perspectiva.
+                </p>
+                <p class="japones">ようこそ</p>
+              </div>
+              <div class="profile-stats">
+                <div class="social-icons">
+                  <a class="social-icon social-icon--instagram" href="https://www.instagram.com/fabiancamilo96/"
+                    target="_blank">
+                    <i class="fa fa-instagram"></i>
+                    <div class="tooltip">Instagram</div>
+                  </a>
+                  <a class="social-icon social-icon--facebook" href="https://web.facebook.com/fabiancamilo9607"
+                    target="_blank">
+                    <i class="fa fa-facebook"></i>
+                    <div class="tooltip">Facebook</div>
+                  </a>
+                  <a class="social-icon social-icon--linkedin" href="https://www.linkedin.com/in/fabiancamilo/"
+                    target="_blank">
+                    <i class="fa fa-linkedin"></i>
+                    <div class="tooltip">LinkedIn</div>
+                  </a>
+                  <a class="social-icon social-icon--twitter" href="https://x.com/FabianCamilo96" target="_blank">
+                    <i class="fa fa-twitter"></i>
+                    <div class="tooltip">Twitter</div>
+                  </a>
+                  <a class="social-icon social-icon--github" href="https://github.com/fcordonezo" target="_blank">
+                    <i class="fa fa-github"></i>
+                    <div class="tooltip">Github</div>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
+          <path fill="#FFFFFF" stroke="#000000" stroke-width="10" stroke-miterlimit="10" d="M57,283" />
+          <g>
+            <path fill="#fff"
+              d="M250.4,0.8C112.7,0.8,1,112.4,1,250.2c0,137.7,111.7,249.4,249.4,249.4c137.7,0,249.4-111.7,249.4-249.4
+C499.8,112.4,388.1,0.8,250.4,0.8z M383.8,326.3c-62,0-101.4-14.1-117.6-46.3c-17.1-34.1-2.3-75.4,13.2-104.1
+c-22.4,3-38.4,9.2-47.8,18.3c-11.2,10.9-13.6,26.7-16.3,45c-3.1,20.8-6.6,44.4-25.3,62.4c-19.8,19.1-51.6,26.9-100.2,24.6l1.8-39.7		c35.9,1.6,59.7-2.9,70.8-13.6c8.9-8.6,11.1-22.9,13.5-39.6c6.3-42,14.8-99.4,141.4-99.4h41L333,166c-12.6,16-45.4,68.2-31.2,96.2	c9.2,18.3,41.5,25.6,91.2,24.2l1.1,39.8C390.5,326.2,387.1,326.3,383.8,326.3z" />
+          </g>
+          </svg>
+        </div>
+
+        <!--Waves Container-->
+        <div>
+          <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+            <defs>
+              <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+            </defs>
+            <g class="parallax">
+              <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+              <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+              <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+              <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+            </g>
+          </svg>
         </div>
       </div>
     </header>
