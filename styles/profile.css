@@ -1,8 +1,13 @@
+@font-face {
+    font-family: 'KaiseiHarunoUmi';
+    src: url('../fonts/KaiseiHarunoUmi-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 /* Base Styles */
 :root {
   font-size: 12px;
 }
-
 
 .profile-container {
   max-width: 93.5rem;
@@ -11,12 +16,10 @@
 }
 
 /* Profile Section */
-
 .profile {
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
-
 
 .profile-image {
   float: right;
@@ -31,6 +34,8 @@
   max-width: 150px;
   aspect-ratio: 1;
   border-radius: 50%;
+  border: 2px solid;
+  border-color: #fff;
 }
 
 .profile-user-settings,
@@ -40,11 +45,24 @@
   width: calc(66.666% - 2rem);
 }
 
+.profile-bio {
+  font-size: 1.3rem;
+  font-style: normal;
+  color: #F2F2F2;
+  
+}
+
+.japones {
+  font-family: KaiseiHarunoUmi;
+  font-size: 1.8rem;
+}
+
 .profile-user-name {
   display: inline-block;
   font-size: 3.2rem;
   font-weight: 300;
   padding-bottom: 15px;
+  color: #C2DCF2;
 }
 
 .profile-stats {
@@ -59,8 +77,8 @@
 }
 
 .profile-real-name {
-  font-weight: 600;
   padding-bottom: 5px;
+  color: #F2F2F2;
 }
 
 /* Media Query */
@@ -157,5 +175,83 @@
     .profile-stats {
       margin: 0;
     }
+  }
+}
+
+/* Waves */
+.header {
+  position:relative;
+  background: linear-gradient(0deg, #05AFF2 0%, #0477BF 60%);
+  color:white;
+}
+
+.inner-header {
+  height:65vh;
+  width:100%;
+  margin: 0;
+  padding: 0;
+}
+
+.flex { /*Flexbox for containers*/
+  display: flex;
+  align-items: center;
+}
+
+.waves {
+  position:relative;
+  width: 100%;
+  height:15vh;
+  margin-bottom:-7px; /*Fix for safari gap*/
+  min-height:100px;
+  max-height:150px;
+}
+
+.content {
+  position:relative;
+  height:20vh;
+  text-align:center;
+  background-color: white;
+}
+
+/* Animation */
+
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+}
+.parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+}
+.parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+.parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+.parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+}
+@keyframes move-forever {
+  0% {
+   transform: translate3d(-90px,0,0);
+  }
+  100% { 
+    transform: translate3d(85px,0,0);
+  }
+}
+/*Shrinking for mobile*/
+@media (max-width: 768px) {
+  .waves {
+    height:40px;
+    min-height:40px;
+  }
+  .content {
+    height:30vh;
+  }
+  h1 {
+    font-size:24px;
   }
 }
