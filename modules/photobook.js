@@ -1,10 +1,10 @@
 import { photos } from "./photos.js";
 
 export const createPhotoBook = (container) => {
-    photos.forEach((photo) => buildElements(container, photo));
+    photos.forEach((photo, index) => buildElements(container, photo, index));
   }
   
-  const buildElements = (container, photo) => {
+  const buildElements = (container, photo, index) => {
     const card = document.createElement("div");
     const cardImage = document.createElement("div");
     const a = document.createElement("a");
@@ -18,6 +18,9 @@ export const createPhotoBook = (container) => {
     img.src = photo.thumb;
     img.alt = `${photo.name}. ${photo.place}. ${photo.city}${(photo.event? ". " + photo.event:"")}. ${photo.country}`;
     img.loading = "lazy";
+    if(index === 0) {
+      img.loading = "eager";
+    }
     a.appendChild(img);
     cardImage.appendChild(a);
     card.appendChild(cardImage);
