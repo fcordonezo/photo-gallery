@@ -4,8 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Poetsen+One&display=swap"
-    rel="stylesheet">
 
   <!-- SEO -->
   <meta name="description"
@@ -35,12 +33,16 @@
   <meta name="twitter:image" content="https://fcordonezo.github.io/photo-gallery/images/OG-image.jpg">
   <meta property="twitter:image:alt" content="Café, libro, galletas, tablet y prensa francesa">
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="fancybox/6.0.15/fancybox.umd.js" async></script>
+  <script src="script.js" type="module" defer></script>
   <link rel="shortcut icon" href="images/camera-icon.png">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="fancybox/6.0.15/fancybox.css"/>
-  <script src="fancybox/6.0.15/fancybox.umd.js"></script>
-  <script src="script.js" type="module"></script>
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="fancybox/6.0.15/fancybox.css" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
+  <link rel="preload" href="style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></noscript>
+  <noscript><link rel="stylesheet" href="fancybox/6.0.15/fancybox.css"></noscript>
+  <noscript><link rel="stylesheet" href="style.css"></noscript>
+
   <title>Camilo's Photo Book</title>
 </head>
 
