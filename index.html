@@ -2,6 +2,517 @@
 <html lang="es">
 
 <head>
+  <style>
+    /* PROFILE */
+    @font-face {
+      font-family: 'KaiseiHarunoUmi';
+      src: url('../fonts/KaiseiHarunoUmi-Bold.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    /* Base Styles */
+    :root {
+      font-size: 12px;
+    }
+
+    .profile-container {
+      max-width: 93.5rem;
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+
+    /* Profile Section */
+    .profile {
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+    }
+
+    .profile-image {
+      float: right;
+      width: calc(33.333% - 1rem);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 3rem;
+    }
+
+    .profile-image img {
+      max-width: 150px;
+      aspect-ratio: 1;
+      border-radius: 50%;
+      border: 2px solid;
+      border-color: #fff;
+    }
+
+    .profile-user-settings,
+    .profile-stats,
+    .profile-bio {
+      float: left;
+      width: calc(66.666% - 2rem);
+    }
+
+    .profile-bio {
+      font-size: 1.3rem;
+      font-style: normal;
+      color: #F2F2F2;
+
+    }
+
+    .japones {
+      font-family: KaiseiHarunoUmi;
+      font-size: 1.8rem;
+    }
+
+    .profile-user-name {
+      display: inline-block;
+      font-size: 3.2rem;
+      font-weight: 300;
+      padding-bottom: 15px;
+      color: #C2DCF2;
+    }
+
+    .profile-stats {
+      margin-top: 2.3rem;
+    }
+
+    .profile-bio {
+      font-size: 1.6rem;
+      font-weight: 400;
+      line-height: 1.5;
+      margin-top: 2.3rem;
+    }
+
+    .profile-real-name {
+      padding-bottom: 5px;
+      color: #F2F2F2;
+    }
+
+    /* Media Query */
+
+    @media screen and (max-width: 40rem) {
+      .profile {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 4rem 0;
+      }
+
+      .profile::after {
+        display: none;
+      }
+
+      .profile-image,
+      .profile-bio,
+      .profile-stats {
+        float: none;
+        width: auto;
+      }
+
+      .profile-image img {
+        width: 7.7rem;
+      }
+
+      .profile-user-name {
+        font-size: 2rem;
+      }
+
+      .profile-bio {
+        font-size: 1.4rem;
+        margin-top: 1.5rem;
+      }
+
+      .profile-bio,
+      .profile-stats {
+        flex-basis: 100%;
+      }
+    }
+
+    @supports (display: grid) {
+      .profile {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: repeat(3, auto);
+        grid-column-gap: 3rem;
+        align-items: center;
+      }
+
+      .profile-image {
+        grid-row: 1 / -1;
+      }
+
+      .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+        grid-gap: 2rem;
+      }
+
+      .profile-image,
+      .profile-user-settings,
+      .profile-stats,
+      .profile-bio,
+      .gallery-item,
+      .gallery {
+        width: auto;
+        margin: 0;
+      }
+
+      @media (max-width: 40rem) {
+        .profile {
+          grid-template-columns: auto 1fr;
+          grid-row-gap: 1.5rem;
+        }
+
+        .profile-image {
+          grid-row: 1 / 2;
+        }
+
+        .profile-user-settings {
+          display: grid;
+          grid-template-columns: auto 1fr;
+          grid-gap: 1rem;
+        }
+
+        .profile-stats,
+        .profile-bio {
+          grid-column: 1 / -1;
+        }
+
+        .profile-user-settings,
+        .profile-bio,
+        .profile-stats {
+          margin: 0;
+        }
+      }
+    }
+
+    /* Waves */
+    .header {
+      position: relative;
+      background: linear-gradient(0deg, #05AFF2 0%, #0477BF 60%);
+      color: white;
+    }
+
+    .inner-header {
+      height: 65vh;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    .flex {
+      /*Flexbox for containers*/
+      display: flex;
+      align-items: center;
+    }
+
+    .waves {
+      position: relative;
+      width: 100%;
+      height: 15vh;
+      margin-bottom: -7px;
+      /*Fix for safari gap*/
+      min-height: 100px;
+      max-height: 150px;
+    }
+
+    .content {
+      position: relative;
+      height: 20vh;
+      text-align: center;
+      background-color: white;
+    }
+
+    /* Animation */
+
+    .parallax>use {
+      animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
+    }
+
+    .parallax>use:nth-child(1) {
+      animation-delay: -2s;
+      animation-duration: 7s;
+    }
+
+    .parallax>use:nth-child(2) {
+      animation-delay: -3s;
+      animation-duration: 10s;
+    }
+
+    .parallax>use:nth-child(3) {
+      animation-delay: -4s;
+      animation-duration: 13s;
+    }
+
+    .parallax>use:nth-child(4) {
+      animation-delay: -5s;
+      animation-duration: 20s;
+    }
+
+    @keyframes move-forever {
+      0% {
+        transform: translate3d(-90px, 0, 0);
+      }
+
+      100% {
+        transform: translate3d(85px, 0, 0);
+      }
+    }
+
+    /*Shrinking for mobile*/
+    @media (max-width: 768px) {
+      .waves {
+        height: 40px;
+        min-height: 40px;
+      }
+
+      .content {
+        height: 30vh;
+      }
+
+      h1 {
+        font-size: 24px;
+      }
+
+      h2 {
+        font-size: 20px;
+      }
+    }
+
+    /* SOCIAL */
+
+    /* Social Icons */
+    .social-icons {
+      display: flex;
+      padding-top: 20px;
+    }
+
+    .social-icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      width: 50px;
+      height: 50px;
+      margin: 0 0.5rem;
+      border-radius: 50%;
+      cursor: pointer;
+      font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+      font-size: 2.5rem;
+      text-decoration: none;
+      transition: all 0.15s ease;
+      border: 0.15rem solid;
+      border-color: #F2F2F2;
+    }
+
+    .social-icon:hover {
+      color: #F2F2F2;
+    }
+
+    .tooltip {
+      border: 0.15rem solid;
+      border-color: #F2F2F2;
+    }
+
+    .social-icon:hover .tooltip {
+      visibility: visible;
+      opacity: 1;
+      transform: translate(-50%, 150%);
+    }
+
+    .social-icon:active {
+      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5) inset;
+    }
+
+    .social-icon--linkedin {
+      background: #0a66c2;
+      color: #F2F2F2;
+    }
+
+    .social-icon--linkedin .tooltip {
+      background: #0a66c2;
+      color: currentColor;
+    }
+
+    .social-icon--linkedin .tooltip:after {
+      border-top-color: #0a66c2;
+    }
+
+    .social-icon--twitter {
+      background: #2b97f1;
+      color: #F2F2F2;
+    }
+
+    .social-icon--twitter .tooltip {
+      background: #2b97f1;
+      color: currentColor;
+    }
+
+    .social-icon--twitter .tooltip:after {
+      border-top-color: #2b97f1;
+    }
+
+    .social-icon--facebook {
+      background: #0866ff;
+      color: #F2F2F2;
+    }
+
+    .social-icon--facebook .tooltip {
+      background: #0866ff;
+      color: currentColor;
+    }
+
+    .social-icon--facebook .tooltip:after {
+      border-top-color: #0866ff;
+    }
+
+    .social-icon--instagram {
+      background: #DD2A7B;
+      color: #F2F2F2;
+    }
+
+    .social-icon--instagram .tooltip {
+      background: #DD2A7B;
+      color: currentColor;
+    }
+
+    .social-icon--instagram .tooltip:after {
+      border-top-color: #DD2A7B;
+    }
+
+    .social-icon--github {
+      background: black;
+      color: #F2F2F2;
+    }
+
+    .social-icon--github .tooltip {
+      background: black;
+      color: currentColor;
+    }
+
+    .social-icon--github .tooltip:after {
+      border-top-color: black;
+    }
+
+    .social-icon i {
+      position: relative;
+      top: 1px;
+    }
+
+    /* Tooltips */
+    .tooltip {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 50%;
+      padding: 0.8rem 1rem;
+      border-radius: 40px;
+      font-size: 0.8rem;
+      font-weight: bold;
+      opacity: 0;
+      pointer-events: none;
+      text-transform: uppercase;
+      transform: translate(-50%, -100%);
+      transition: all 0.3s ease;
+      z-index: 1;
+    }
+
+    /* PHOTOBOOK */
+    @font-face {
+      font-family: 'ComicRelief-Regular';
+      src: url('../fonts/ComicRelief-Regular.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: 'ComicRelief-Bold';
+      src: url('../fonts/ComicRelief-Bold.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    *,
+    *::before,
+    *::after {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      list-style: none;
+      list-style-type: none;
+      text-decoration: none;
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+
+    body {
+      font-family: "ComicRelief-Regular", system-ui;
+      font-size: 1rem;
+      font-weight: normal;
+      line-height: 1.5;
+      color: #252a32;
+      background: #fff;
+    }
+
+    .photobook-container {
+      max-width: 80rem;
+      width: 100%;
+      padding: 4rem 2rem;
+      margin: 0 auto;
+    }
+
+    .main .photobook-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 1rem;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .main .card {
+      color: #252a32;
+      border-radius: 2px;
+      background: #fff;
+      box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.24);
+      transition: transform .2s, .1s -webkit-filter;
+    }
+
+    .main .card-image {
+      position: relative;
+      display: block;
+      aspect-ratio: 1;
+      width: 100%;
+      padding-top: 70%;
+      background: #fff;
+    }
+
+    .main .card:hover {
+      transform: scale(1.02);
+      -webkit-filter: opacity(0.8);
+      filter: opacity(0.8);
+    }
+
+    .main .card-image img {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    @media only screen and (max-width: 600px) {
+      .main .photobook-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+      }
+    }
+  </style>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -36,12 +547,11 @@
   <script src="fancybox/6.0.15/fancybox.umd.js" async></script>
   <script src="script.js" type="module" defer></script>
   <link rel="shortcut icon" href="images/camera-icon.webp">
-  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="preload" href="fancybox/6.0.15/fancybox.css" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
-  <link rel="preload" href="style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css&display=swap"></noscript>
-  <noscript><link rel="stylesheet" href="fancybox/6.0.15/fancybox.css"></noscript>
-  <noscript><link rel="stylesheet" href="style.css"></noscript>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preload" href="fancybox/6.0.15/fancybox.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <noscript>
+    <link rel="stylesheet" href="fancybox/6.0.15/fancybox.css">
+  </noscript>
 
   <title>Camilo's Photo Book</title>
 </head>
@@ -57,7 +567,8 @@
           <div class="profile-container">
             <div class="profile">
               <div class="profile-image">
-                <img src="images/profile.webp" alt="Autoretrato con una motocicleta Royal Endfield Himalayan 450. Imagen principal de perfil para Camilo's Photo Book. photobook.fc2o.com">
+                <img src="images/profile.webp"
+                  alt="Autoretrato con una motocicleta Royal Endfield Himalayan 450. Imagen principal de perfil para Camilo's Photo Book. photobook.fc2o.com">
               </div>
               <div class="profile-user-settings">
                 <h1 class="profile-user-name">Camilo's Photo Book</h1>
