@@ -19,8 +19,7 @@ export const createPhotoBook = (container) => {
     img.alt = `${photo.name}. ${photo.place}. ${photo.city}${(photo.event? ". " + photo.event:"")}. ${photo.country}`;
     img.loading = "lazy";
     if(index === 0) {
-      img.fetchPriority = "high";
-      img.loading = "eager";
+      return;
     }
     a.appendChild(img);
     cardImage.appendChild(a);
