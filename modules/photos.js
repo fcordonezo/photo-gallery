@@ -1,7 +1,7 @@
 export const photos = [
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQRlvvTfnGVlTbF0sOSmSomgAQ--nU0-KlLN8sNI4PenUwo?width=1280&height=1920",
-    thumb: "images/thumbs/0059.jpg",
+    thumb: "images/thumbs/0059.webp",
     name: "Flor amarilla",
     place: "Comuna 13",
     city: "Medellín",
@@ -10,7 +10,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQRqPI-5Fo2TSoRVRCmbbj6lAUw3S60La7hkcw2_bESRpvk?width=1280&height=1920",
-    thumb: "images/thumbs/0058.jpg",
+    thumb: "images/thumbs/0058.webp",
     name: "Escultura de Anubis",
     place: "Catedral de sal, museo Tutankamón",
     city: "Zipaquirá",
@@ -19,7 +19,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQTsSj2mCKIFQb2sCjGjd5ouAbSOCbJnaXYkiXJxdO9RF1Q?width=1920&height=1280",
-    thumb: "images/thumbs/0057.jpg",
+    thumb: "images/thumbs/0057.webp",
     name: "Escaleras de piedra con halo de luz",
     place: "Catedral de sal, museo monumental 180",
     city: "Zipaquirá",
@@ -28,7 +28,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQR7l6RXQFnIS4cnjlOydVo-Ad04M_2BKyZ6-M1N9_VWZFc?width=1920&height=1280",
-    thumb: "images/thumbs/0056.jpg",
+    thumb: "images/thumbs/0056.webp",
     name: "Escultura de piedra, figura geométrica",
     place: "Catedral de sal, museo monumental 180",
     city: "Zipaquirá",
@@ -37,7 +37,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQSukYWDsaTGRa0ouOf-EQarAb9wqhTcGFb7d9xIJrE0Y88?width=1280&height=1920",
-    thumb: "images/thumbs/0055.jpg",
+    thumb: "images/thumbs/0055.webp",
     name: "Escultura de piedra",
     place: "Catedral de sal, museo monumental 180",
     city: "Zipaquirá",
@@ -46,7 +46,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQSubbOR_C_kTIaev985unHuAV-4VIrCU7QNPuvVm6dfUvU?width=1280&height=1920",
-    thumb: "images/thumbs/0054.jpg",
+    thumb: "images/thumbs/0054.webp",
     name: "Escultura de mujer con cabello en la cara",
     place: "Catedral de sal, museo monumental 180",
     city: "Zipaquirá",
@@ -55,7 +55,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQScpCYrS3wjQYTGK110umIMASLP25vdUIMc2VMk0eCK19s?width=1280&height=1920", //
-    thumb: "images/thumbs/0053.jpg",
+    thumb: "images/thumbs/0053.webp",
     name: "Árbol de la vida",
     place: "Catedral de sal",
     city: "Zipaquirá",
@@ -64,7 +64,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQR5rUQowXFdQb7mpWM4D4TCAXA7Zof4HGDyZIoxoZ_PGlU?width=1280&height=1920",
-    thumb: "images/thumbs/0052.jpg",
+    thumb: "images/thumbs/0052.webp",
     name: "Cruz color roja tallada en la pared",
     place: "Catedral de sal",
     city: "Zipaquirá",
@@ -73,7 +73,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQSgS5xy9vA3S5XAdS2aHyWvAf8D6QeIF1EDycsigXBujp8?width=1280&height=1920",
-    thumb: "images/thumbs/0051.jpg",
+    thumb: "images/thumbs/0051.webp",
     name: "Cruz color roja, viacrucis",
     place: "Catedral de sal",
     city: "Zipaquirá",
@@ -82,7 +82,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQS2qtrJNhFAS63tYQRm0n90AXIYlVFOZ7YngMyXdLHI1rk?width=1280&height=1920",
-    thumb: "images/thumbs/0050.jpg",
+    thumb: "images/thumbs/0050.webp",
     name: "Manos de esperanza",
     place: "Catedral de sal",
     city: "Zipaquirá",
@@ -91,7 +91,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQQq5pXifHnXSo5MBWt44zqrAdjZ0Ug6iwL09m9efHzn_kU?width=1280&height=1920",
-    thumb: "images/thumbs/0049.jpg",
+    thumb: "images/thumbs/0049.webp",
     name: "Fumidzuki, mes de las letras en japonés: 文月",
     place: "Bogotá",
     city: "Bogotá",
@@ -100,7 +100,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQQiJKn4jOSGTaPa7xl-KXWPAeM2-IW4arRAWGaSw2MApdc?width=1920&height=1280",
-    thumb: "images/thumbs/0048.jpg",
+    thumb: "images/thumbs/0048.webp",
     name: "Café, libro, galletas, tablet y prensa francesa",
     place: "Bogotá",
     city: "Bogotá",
@@ -109,7 +109,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQS6cnEZjpAGQKI2co28ZQXmAbpxiHD4h0-Gjd-dCT3gop8?width=1280&height=1920",
-    thumb: "images/thumbs/0047.jpg",
+    thumb: "images/thumbs/0047.webp",
     name: "Flores y vegetación",
     place: "Carmen de Apicalá",
     city: "Carmen de Apicalá",
@@ -118,7 +118,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQSr0_x4AznMS4SWqMaAlkkyAc3EfV3qhIj9wFaL1VcRJ-o?width=1280&height=1920",
-    thumb: "images/thumbs/0046.jpg",
+    thumb: "images/thumbs/0046.webp",
     name: "Fogata de año viejo",
     place: "Bogotá",
     event: "Año viejo",
@@ -128,7 +128,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQStGIC9tZfiS77pebQgxrdYAfQU7kJxBmFzLuiri7XsHSo?width=1920&height=1280",
-    thumb: "images/thumbs/0045.jpg",
+    thumb: "images/thumbs/0045.webp",
     name: "Velitas con nombres",
     place: "Bogotá",
     event: "Día de velitas 2024",
@@ -138,7 +138,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQQlgnltFMO9Sr6Cbs0TY2klAVXOSwVIRuo2Ygwdu1rHNb8?width=1280&height=1920",
-    thumb: "images/thumbs/0044.jpg",
+    thumb: "images/thumbs/0044.webp",
     name: "Torre Colpatria",
     place: "Bogotá",
     city: "Bogotá",
@@ -147,7 +147,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQRlhEQA1KctS7A5taBq6jkQAQ2Wh1PoDxeFUEfgrvpAcNc?width=1280&height=1920",
-    thumb: "images/thumbs/0043.jpg",
+    thumb: "images/thumbs/0043.webp",
     name: "T-rex bebé en incubadora",
     place: "Planetario de Bogotá",
     city: "Bogotá",
@@ -156,7 +156,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQRmStn0WlLlSLXBPJspAfbUAYLqikPA_HOklZ-fmmzCOaE?width=1920&height=1280",
-    thumb: "images/thumbs/0042.jpg",
+    thumb: "images/thumbs/0042.webp",
     name: "Compy",
     place: "Planetario de Bogotá",
     city: "Bogotá",
@@ -165,7 +165,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQRSB8SalWBwR4OzxUVCIwgPAbifrvEPDfpAwLYd53iNzjs?width=1280&height=1920",
-    thumb: "images/thumbs/0041.jpg",
+    thumb: "images/thumbs/0041.webp",
     name: "Estatua de velociraptor",
     place: "Planetario de Bogotá",
     city: "Bogotá",
@@ -174,7 +174,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQS6Q2XK4i9JQYHTdSuxbLTrAVHSd9qe6r_Vb85ymsnls8Q?width=1280&height=1920",
-    thumb: "images/thumbs/0040.jpg",
+    thumb: "images/thumbs/0040.webp",
     name: "Caracara Cheriwa",
     place: "Piscilago",
     city: "Girardot",
@@ -183,7 +183,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQS2cYqrMuYsQbkUpJLuqLx5AWW5Xav-SmXUWPIOgmTO968?width=1280&height=1920",
-    thumb: "images/thumbs/0039.jpg",
+    thumb: "images/thumbs/0039.webp",
     name: "Chauna Chavaria",
     place: "Piscilago",
     city: "Girardot",
@@ -192,7 +192,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQSezFhWH9eYRZp62laULfQuAQBixWR2FbXu8Z8qVxp6KOc?width=1280&height=1920",
-    thumb: "images/thumbs/0038.jpg",
+    thumb: "images/thumbs/0038.webp",
     name: "Pato negro",
     place: "Piscilago",
     city: "Girardot",
@@ -201,7 +201,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQR7NSVBK3qBRbK4C4gv_qWBAR0h28mkLtcvlCeJwuN_9yA?width=1280&height=1920",
-    thumb: "images/thumbs/0037.jpg",
+    thumb: "images/thumbs/0037.webp",
     name: "Águila",
     place: "Piscilago",
     city: "Girardot",
@@ -210,7 +210,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQS-h6WhUaTUR7Fy7pbE4tgOAYzmCH123_d_Y0Hb4nY979g?width=1280&height=1920",
-    thumb: "images/thumbs/0036.jpg",
+    thumb: "images/thumbs/0036.webp",
     name: "Halcón",
     place: "Piscilago",
     city: "Girardot",
@@ -219,7 +219,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQRLshXoqEjeQLLxiDgdmj2wAefm3BZIOsr0RHS_Y756B5s?width=1280&height=1920",
-    thumb: "images/thumbs/0035.jpg",
+    thumb: "images/thumbs/0035.webp",
     name: "Flamingos",
     place: "Piscilago",
     city: "Girardot",
@@ -228,7 +228,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQSrjeORhDy7SpZHUC_kd6ZTAa8VvGeWc2xs-hJE03N7AHg?width=1280&height=1920",
-    thumb: "images/thumbs/0034.jpg",
+    thumb: "images/thumbs/0034.webp",
     name: "Pavo real con la cola extendida en acercamiento",
     place: "Piscilago",
     city: "Girardot",
@@ -237,7 +237,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQQf6_BKAORQSJcS_LZeg370AQdltKjhD905BsJVmIjmA50?width=1654&height=1280",
-    thumb: "images/thumbs/0033.jpg",
+    thumb: "images/thumbs/0033.webp",
     name: "Pavo real con la cola extendida",
     place: "Piscilago",
     city: "Girardot",
@@ -246,7 +246,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQTifke_8AtTSpDKnupix-OoAajTydL4NKOm7KqfIY6PWHE?width=1280&height=1920",
-    thumb: "images/thumbs/0032.jpg",
+    thumb: "images/thumbs/0032.webp",
     name: "Gata Fogata",
     place: "Las novias del gato",
     city: "Cali",
@@ -255,7 +255,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQQ8ti512_kuRZZSZiGYPF9AAUTBP5fr5tCDpiEM5SE6lmY?width=1280&height=1920",
-    thumb: "images/thumbs/0031.jpg",
+    thumb: "images/thumbs/0031.webp",
     name: "Santa misión",
     place: "Cali",
     city: "Cali",
@@ -264,7 +264,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQQX-cIdXX3vTatC_m5-QSYSAQc6GwB8a5RD1qnAHPKBCqk?width=1920&height=1280",
-    thumb: "images/thumbs/0030.jpg",
+    thumb: "images/thumbs/0030.webp",
     name: "Motocicleta hecha con alambres",
     place: "Cali",
     city: "Cali",
@@ -273,7 +273,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQTfjGhMs51lRJjTTovZKz98AW9YKDCS3Z7RLPVS3tHCLf4?width=1280&height=1920",
-    thumb: "images/thumbs/0029.jpg",
+    thumb: "images/thumbs/0029.webp",
     name: "Maceta",
     place: "Cali",
     city: "Cali",
@@ -282,7 +282,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQQSQzUVUYjpQaUsB1vLIO06AVCo4pncBb51uwSx20AkVko?width=1920&height=1280",
-    thumb: "images/thumbs/0028.jpg",
+    thumb: "images/thumbs/0028.webp",
     name: "Letrero",
     place: "Parque de la 93",
     city: "Bogotá",
@@ -291,7 +291,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQSAY2-MdshwSaGgT05Z8b4zATOFiRBw87xbAQiPBttU9-0?width=1920&height=1280",
-    thumb: "images/thumbs/0027.jpg",
+    thumb: "images/thumbs/0027.webp",
     name: "Mensaje de motivación MINISO",
     place: "Parque de la 93",
     city: "Bogotá",
@@ -300,7 +300,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQS3Jswbe48jQqo5j46upi1ZATUTHQhDNSgV_ghIPKbnDWo?width=1280&height=1920",
-    thumb: "images/thumbs/0026.jpg",
+    thumb: "images/thumbs/0026.webp",
     name: "Farolito de la Virgen María",
     place: "Bogotá",
     event: "Día de velitas 2023",
@@ -310,7 +310,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQTLUXVg0U3KSKXOfeBebyrVAdEvnz9sNcY0JcGnpg9v36M?width=1280&height=1920",
-    thumb: "images/thumbs/0025.jpg",
+    thumb: "images/thumbs/0025.webp",
     name: "Cascadas Tequendamita",
     place: "La Ceja",
     city: "Antioquia",
@@ -319,7 +319,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQShKJtL3KCtTbybgILRQvHYAUYyZS78Cii4HbF4gZQugBU?width=1280&height=1920",
-    thumb: "images/thumbs/0024.jpg",
+    thumb: "images/thumbs/0024.webp",
     name: "Escaleras de piedra",
     place: "Comuna 13",
     city: "Medellín",
@@ -328,7 +328,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQTl1Vykr5NiSIwzKooaj2ukAQI2_jTvjo9sX_JxEHrSGAk?width=1280&height=1920",
-    thumb: "images/thumbs/0023.jpg",
+    thumb: "images/thumbs/0023.webp",
     name: "Barril Ron Medellín",
     place: "Medellín",
     city: "Medellín",
@@ -337,7 +337,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQQrwxtlhb3WTJJPh1I2LAJ5AespVnaVsBTTLvzfVSuz82w?width=1920&height=1280",
-    thumb: "images/thumbs/0022.jpg",
+    thumb: "images/thumbs/0022.webp",
     name: "Conjunto de vegetación y flores",
     place: "Norte de Bogotá",
     city: "Bogotá",
@@ -346,7 +346,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQRBOEZxWg3oR7JHF-jwCox8AVRgtX7NaYE2kMGy4ALB8A4?width=1280&height=1920",
-    thumb: "images/thumbs/0021.jpg",
+    thumb: "images/thumbs/0021.webp",
     name: "Flor rosada",
     place: "Bogotá",
     city: "Bogotá",
@@ -355,7 +355,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQQZYTxMZZV7So4i5qaX7suuAYQvHfrxI25uu11YB5BdZLw?width=1920&height=1280",
-    thumb: "images/thumbs/0020.jpg",
+    thumb: "images/thumbs/0020.webp",
     name: "Edifício de Ciencia y Tecnología de noche desde la parte de en frente",
     place: "Universidad Nacional de Colombia",
     city: "Bogotá",
@@ -364,7 +364,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQRcQ4DYBp9ZR4Hqf1o2T1r7Aas5HAUXEXZfTum2OsDDipc?width=1920&height=1280",
-    thumb: "images/thumbs/0019.jpg",
+    thumb: "images/thumbs/0019.webp",
     name: "Edifício de Ciencia y Tecnología de noche desde la parte de atrás",
     place: "Universidad Nacional de Colombia",
     city: "Bogotá",
@@ -373,7 +373,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQQPyB2-BkpxTL2gmIsjoa5RAY1iAzVWTtZZlCC8I-bRNGE?width=1280&height=1920",
-    thumb: "images/thumbs/0018.jpg",
+    thumb: "images/thumbs/0018.webp",
     name: "Máquina de videojuegos Killer Instinct",
     place: "Corferias",
     Event: "SOFA",
@@ -383,7 +383,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQS3BXQYnxExQo9cu_3J6XRTATFkhrdBd_AATw-8e87b4FE?width=1280&height=1920",
-    thumb: "images/thumbs/0017.jpg",
+    thumb: "images/thumbs/0017.webp",
     name: "Estatua de demonio con armas en la espalda",
     place: "Corferias",
     Event: "SOFA",
@@ -393,7 +393,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQSghjyFrKpgRp1AZNt2BTmUAVFb2Ce2sKakIUk2AOBxawo?width=1280&height=1920",
-    thumb: "images/thumbs/0016.jpg",
+    thumb: "images/thumbs/0016.webp",
     name: "Edificio Corferias junto a arco",
     place: "Corferias",
     Event: "SOFA",
@@ -403,7 +403,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQTMFm0Elqf-SZQGoGk0oCyiAUwDiy0SUJ3gvttylQXWYhE?width=1920&height=1280",
-    thumb: "images/thumbs/0015.jpg",
+    thumb: "images/thumbs/0015.webp",
     name: "Dos imágenes de caricaturas",
     place: "Corferias",
     Event: "SOFA",
@@ -413,7 +413,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQTqPejORw5nTa4Uu_GD0iU9AVQGe78zebnyvZf5-XWNYbs?width=1920&height=1280",
-    thumb: "images/thumbs/0014.jpg",
+    thumb: "images/thumbs/0014.webp",
     name: "Nube en forma de aureola",
     place: "Parque Simón Bolívar",
     city: "Bogotá",
@@ -422,7 +422,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQRmAmRxkMFqSYA5znXNIYW0AVOi9pcorj9F66hwZTgyyG8?width=1920&height=1280",
-    thumb: "images/thumbs/0013.jpg",
+    thumb: "images/thumbs/0013.webp",
     name: "Cruz",
     place: "Parque Simón Bolívar",
     city: "Bogotá",
@@ -431,7 +431,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQTeiOUn6SP7T5Ia16B0YDjOAXkNAyKAEqxFX2ai2Ew0nMM?width=1920&height=1280",
-    thumb: "images/thumbs/0012.jpg",
+    thumb: "images/thumbs/0012.webp",
     name: "Shen Long",
     place: "Biblioteca Virgilio Barco",
     city: "Bogotá",
@@ -440,7 +440,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQQKVnNw0XtpQY4p-rOTTaPsAR3wH-adTRIsE24UOGRTMqw?width=1280&height=1653",
-    thumb: "images/thumbs/0011.jpg",
+    thumb: "images/thumbs/0011.webp",
     name: "Camino de agua",
     place: "Biblioteca Virgilio Barco",
     city: "Bogotá",
@@ -449,7 +449,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQSmIfRt4k4VS6B2PSndCUZXAcjTJpxGvQ9zSZjDNGGu_Dg?width=1920&height=1068",
-    thumb: "images/thumbs/0010.jpg",
+    thumb: "images/thumbs/0010.webp",
     name: "Islote con árboles. Efecto ojo de pez",
     place: "Biblioteca Virgilio Barco",
     city: "Bogotá",
@@ -458,7 +458,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQQ8Ds63zjDOQ7m6TSIueLJqAVlumoETXjK9RH0QRohXWPI?width=1920&height=1280",
-    thumb: "images/thumbs/0009.jpg",
+    thumb: "images/thumbs/0009.webp",
     name: "Dos estructuras circulares dentro de un pozo de agua",
     place: "Biblioteca Virgilio Barco",
     city: "Bogotá",
@@ -467,7 +467,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQReO1CA_d8nSovmLfPzdWQZAYS2fdN-oYuhd7aCWv6PFo0?width=1920&height=1280",
-    thumb: "images/thumbs/0008.jpg",
+    thumb: "images/thumbs/0008.webp",
     name: "Lago, puente y flores moradas desde el lateral",
     place: "Biblioteca Virgilio Barco",
     city: "Bogotá",
@@ -476,7 +476,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQQqj-74F-9oTJwO88xaUbhmAWlCsyh5-F5vQv7r72xCfFc?width=1920&height=1280",
-    thumb: "images/thumbs/0007.jpg",
+    thumb: "images/thumbs/0007.webp",
     name: "Lago, puente y flores moradas",
     place: "Biblioteca Virgilio Barco",
     city: "Bogotá",
@@ -485,7 +485,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQSfrB4ZfhM8SI3qZQ8VTKb7ARc9IiekpMgd39WKs7uIUVU?width=1920&height=1280",
-    thumb: "images/thumbs/0006.jpg",
+    thumb: "images/thumbs/0006.webp",
     name: "Hombre con chaqueta amarilla caminando frente a la Biblioteca Virgilio Barco",
     place: "Biblioteca Virgilio Barco",
     city: "Bogotá",
@@ -494,7 +494,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQSGw_6FAnitRKvCD-UwNbkLAXsxt0EAogJZaFq3GhllcHM?width=1920&height=1280",
-    thumb: "images/thumbs/0005.jpg",
+    thumb: "images/thumbs/0005.webp",
     name: "Biblioteca Virgilio Barco",
     place: "Biblioteca Virgilio Barco",
     city: "Bogotá",
@@ -503,7 +503,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQTVpBc5UdWKR7-ICLzC1IErAcS5EAZvyllu0tsJwUFo2g4?width=1280&height=1920",
-    thumb: "images/thumbs/0004.jpg",
+    thumb: "images/thumbs/0004.webp",
     name: "Estatua Simon Bolívar",
     place: "Parque Simón Bolívar",
     city: "Bogotá",
@@ -512,7 +512,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQTZAtUsnFRQSKrn23OLJSJWAbg_Czd9-r38_VxzDtyefGE?width=1920&height=1280",
-    thumb: "images/thumbs/0003.jpg",
+    thumb: "images/thumbs/0003.webp",
     name: "Gazebo",
     place: "Parque Simón Bolívar",
     city: "Bogotá",
@@ -521,7 +521,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQQUCYwpF-tyTbUFBbodlFKZATOIojnMJBqDqYEfW89DiNY?width=1280&height=1920",
-    thumb: "images/thumbs/0002.jpg",
+    thumb: "images/thumbs/0002.webp",
     name: "Escultura de arena",
     place: "Parque Simón Bolívar",
     city: "Bogotá",
@@ -530,7 +530,7 @@ export const photos = [
   },
   {
     src: "https://1drv.ms/i/c/f82b9ab18f84c6ac/IQT4YvB-jKx9Sb3fr4GHH2EyAfg_V8pgmOtbaFAuOAs1_lQ?width=1920&height=1280",
-    thumb: "images/thumbs/0001.jpg",
+    thumb: "images/thumbs/0001.webp",
     name: "Bote en lago",
     place: "Parque Simón Bolívar",
     city: "Bogotá",
