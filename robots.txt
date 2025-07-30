@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://photobook.fc2o.com/sitemap.xml
