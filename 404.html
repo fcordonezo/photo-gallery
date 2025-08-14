@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <style>
+    /* Waves */
+    .header {
+      position: relative;
+      background: linear-gradient(0deg, #05AFF2 0%, #0477BF 60%);
+      color: white;
+    }
+
+    .waves {
+      position: relative;
+      width: 100%;
+      height: 15vh;
+      margin-bottom: -7px;
+      /*Fix for safari gap*/
+      min-height: 100px;
+      max-height: 150px;
+    }
+
+    .content {
+      position: relative;
+      height: 20vh;
+      text-align: center;
+      background-color: white;
+    }
+
+    /* Animation */
+
+    .parallax>use {
+      animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
+    }
+
+    .parallax>use:nth-child(1) {
+      animation-delay: -2s;
+      animation-duration: 7s;
+    }
+
+    .parallax>use:nth-child(2) {
+      animation-delay: -3s;
+      animation-duration: 10s;
+    }
+
+    .parallax>use:nth-child(3) {
+      animation-delay: -4s;
+      animation-duration: 13s;
+    }
+
+    .parallax>use:nth-child(4) {
+      animation-delay: -5s;
+      animation-duration: 20s;
+    }
+
+    @keyframes move-forever {
+      0% {
+        transform: translate3d(-90px, 0, 0);
+      }
+
+      100% {
+        transform: translate3d(85px, 0, 0);
+      }
+    }
+
+    /*Shrinking for mobile*/
+    @media (max-width: 768px) {
+      .waves {
+        height: 40px;
+        min-height: 40px;
+      }
+
+      .content {
+        height: 30vh;
+      }
+    }
+
+    /* PHOTOBOOK */
+    @font-face {
+      font-family: 'ComicRelief-Regular';
+      src: url('../fonts/ComicRelief-Regular.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: 'ComicRelief-Bold';
+      src: url('../fonts/ComicRelief-Bold.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    *,
+    *::before,
+    *::after {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      list-style: none;
+      list-style-type: none;
+      text-decoration: none;
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+
+    body {
+      font-family: "ComicRelief-Regular", system-ui;
+      font-weight: normal;
+      line-height: 1.5;
+      color: #252a32;
+      background: #fff;
+    }
+
+    .footer {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      padding: .8rem;
+      background-color: #05AFF2;
+      text-align: center;
+
+      color: #fff;
+    }
+
+    .not-found {
+      display: inline-block;
+      font-size: 8em;
+      padding-bottom: 15px;
+      color: #C2DCF2;
+    }
+
+    .not-found-container {
+      margin: 0 auto;
+      text-align: center;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      gap: 8px;
+    }
+
+    .center {
+      grid-row-start: 2;
+    }
+
+    .bottom {
+      grid-row-start: 3;
+    }
+  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <meta name="description" content="Ups... Página de fotos no encontrada. ¿Quizá estás buscando por donde no es?">
+  <meta name="keywords"
+    content="fotografía, portfolio, paisajes, retratos, fotografía urbana, arte visual, cámara fotográfica">
+  <meta name="author" content="Camilo Ordóñez">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Camilo's Photo Book">
+  <meta property="og:description"
+    content="Ups... Página de fotos no encontrada. ¿Quizá estás buscando por donde no es?">
+  <meta property="og:image" content="https://fcordonezo.github.io/photo-gallery/images/OG-image.webp">
+  <meta property="og:image:alt" content="Café, libro, galletas, tablet y prensa francesa">
+  <meta property="og:url" content="https://fcordonezo.github.io/photo-gallery/">
+  <meta property="og:type" content="website">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:site_name" content="Camilo's Photo Book">
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Camilo's Photo Book">
+  <meta name="twitter:description"
+    content="Ups... Página de fotos no encontrada. ¿Quizá estás buscando por donde no es?">
+  <meta name="twitter:image" content="https://fcordonezo.github.io/photo-gallery/images/OG-image.webp">
+  <meta property="twitter:image:alt" content="Café, libro, galletas, tablet y prensa francesa">
+
+  <link rel="shortcut icon" href="images/camera-icon.webp">
+
+  <title>404 - Camilo's Photo Book</title>
+</head>
+
+<body>
+  <main class="main">
+
+    <header>
+      <div class="header">
+        <div class="not-found-container flex">
+          <div class="center">
+            <h1 class="not-found">404</h1>
+          </div>
+          <div class="bottom">
+            <h2>Ups. esta página no existe.</h2>
+            <p>Volviendo al inicio en 3... 2... 1...</p>
+          </div>
+          <path fill="#FFFFFF" stroke="#000000" stroke-width="10" stroke-miterlimit="10" d="M57,283" />
+          <g>
+            <path fill="#fff"
+              d="M250.4,0.8C112.7,0.8,1,112.4,1,250.2c0,137.7,111.7,249.4,249.4,249.4c137.7,0,249.4-111.7,249.4-249.4
+C499.8,112.4,388.1,0.8,250.4,0.8z M383.8,326.3c-62,0-101.4-14.1-117.6-46.3c-17.1-34.1-2.3-75.4,13.2-104.1
+c-22.4,3-38.4,9.2-47.8,18.3c-11.2,10.9-13.6,26.7-16.3,45c-3.1,20.8-6.6,44.4-25.3,62.4c-19.8,19.1-51.6,26.9-100.2,24.6l1.8-39.7		c35.9,1.6,59.7-2.9,70.8-13.6c8.9-8.6,11.1-22.9,13.5-39.6c6.3-42,14.8-99.4,141.4-99.4h41L333,166c-12.6,16-45.4,68.2-31.2,96.2	c9.2,18.3,41.5,25.6,91.2,24.2l1.1,39.8C390.5,326.2,387.1,326.3,383.8,326.3z" />
+          </g>
+        </div>
+
+        <!--Waves Container-->
+        <div>
+          <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+            <defs>
+              <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+            </defs>
+            <g class="parallax">
+              <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+              <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+              <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+              <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+            </g>
+          </svg>
+        </div>
+      </div>
+    </header>
+  </main>
+  <script>setTimeout(function () { window.location.href = '/'; }, 3000);</script>
+  <footer>
+    <div class="footer">
+      <p>Contáctame a <strong>photos@fc2o.com</strong> si quieres alguna de las fotos en tamaño completo.</p>
+    </div>
+  </footer>
+</body>
+
+</html>
