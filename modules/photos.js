@@ -1,5 +1,33 @@
 export const photos = [
   {
+    src: "https://i.postimg.cc/FzN14y3Q/0062.jpg",
+    thumb: "images/thumbs/0062.webp",
+    name: "Letrero Yo amo Guatavita",
+    place: "Parque principal",
+    city: "Guatavita",
+    country: "CO",
+    desc: "",
+  },
+  {
+    src: "https://i.postimg.cc/QtpVw49h/0061.jpg",
+    thumb: "images/thumbs/0061.webp",
+    name: "Hombre jugando tetris. CTWC",
+    Event: "SOFA",
+    place: "Corferias",
+    city: "Bogotá",
+    country: "CO",
+    desc: "",
+  },
+  {
+    src: "https://i.postimg.cc/SRkjh6Ch/0060.jpg",
+    thumb: "images/thumbs/0060.webp",
+    name: "Casa roja entre hojas",
+    place: "Iglesia la Valvanera",
+    city: "Chía",
+    country: "CO",
+    desc: "",
+  },
+  {
     src: "https://i.postimg.cc/vmpfTZhF/0059.jpg",
     thumb: "images/thumbs/0059.webp",
     name: "Flor amarilla",
